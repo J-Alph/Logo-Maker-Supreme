@@ -1,0 +1,19 @@
+{
+  "name": "logo-maker-supreme",
+  "version": "1.0.0",
+  "description": "- [Project Description](#description)\r   - [Usage](#usage)\r   - [Installation](#installation)\r   - [Contribution](#contribution)\r   - [Questions](#questions)\r   - [License](#license)\r   - [Test](#test)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
