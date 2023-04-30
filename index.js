@@ -9,7 +9,7 @@ const questions =[
     },
     {
     type: "input",
-    name: "textcolor",
+    name: "stroke",
     message: "What is the text color"
 
     },
@@ -28,3 +28,18 @@ const questions =[
 
 
 ]
+
+function runPrompt (){
+    return inquirer.prompt(questions)
+        .then ((answers) => {
+            const info = generateMarkdown(answers)
+            fs.writeFile('examples', info, (err) => {
+                err ? console.error(err) : console.log ('Success today') 
+        }
+
+
+)
+}
+   )}
+   runPrompt();
+
